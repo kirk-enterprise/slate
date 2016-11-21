@@ -1,4 +1,4 @@
-FROM index.qiniu.com/library/ruby:2.3
+FROM index.qiniu.com/kci/ruby:2.3
 
 RUN cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 RUN  echo  'deb http://mirrors.163.com/ubuntu/ precise main restricted universe multiverse \n\
